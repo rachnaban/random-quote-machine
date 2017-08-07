@@ -7,9 +7,15 @@
     justify-content: center;
 
    width: 400px;
-   height: 25%;
+   height: 43%;
         background-color: #56241f;
-        margin:0 auto;
+        margin:0 auto
+          left:50%;
+top:50%;
+position: absolute;
+transform: translate(-50%,-50%);
+border: 1px solid transparent;
+border-radius: 10px;
 }
 
 .quote{
@@ -22,11 +28,12 @@
    
 }
 .newQuoteContainer{
-  position: relative;
-      width: 100%;
+  position: absolute;
+      width: 98%;
     display: flex;
     justify-content: space-between;
      margin: auto;
+  bottom: 3px;
 }
 button{
   color: #fff;
